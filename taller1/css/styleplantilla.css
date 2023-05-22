@@ -1,0 +1,55 @@
+/* Estilos para la barra de herramientas */
+.toolbar {
+    background-color: #243b55;
+    overflow: hidden;
+    border-bottom: 10px solid #243b55;;
+    }
+    
+/* Estilos para los botones de la barra de herramientas */
+.toolbar button {
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #243b55;
+    border: 10px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+.boton:hover {
+    background-color: #000000;
+    color: #03e9f4;
+    }
+    .boton:active {
+    transform: translateY(1px);
+    box-shadow: none;
+    }
+    
+header{
+    display: flex;
+    border: 10px solid #243b55;
+    padding-left: 40px;
+
+}
+img{
+    width: 200px;
+}
+.nombre{
+
+    font-size: 100px;
+    padding-left: 200px;
+}
+.herramientas{
+text-align: center;
+
+}
+
+
+
+
+
+
+
