@@ -30,7 +30,4 @@ btncal.addEventListener("click", function(){
     }
 
 
-
-
-
 })

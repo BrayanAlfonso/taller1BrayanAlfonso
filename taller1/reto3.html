@@ -41,33 +41,39 @@
 </nav>
 <section class="login-box" class="text-center">
     <h1 class="titulo">Conversion de grados</h1>
-    <form action="">
+    <form action="" id="app-cover">
         <table class="table">
-            <th>
+            <th id="select-box">
                 <div class="label">
                     <label for="convertirde">Convertir de:</label>
                 </div>
-                <select name="convertirde" id="convertirde">
-                    <option value="1">Fahrenheit</option>
-                    <option value="2">Celsius</option>
-                    <option value="3">Kelvin</option>
+                <select name="convertirde" id="convertirde" class="select-custom">
+                    <option value="1" class="fahrenheit">Fahrenheit</option>
+                    <option value="2" class="celsius">Celsius</option>
+                    <option value="3" class="kelvin">Kelvin</option>
                 </select>
-                <div>
-                    <input type="text" for="convertirde" id="inputconvertirde">
-                </div>
+                
+
             </th>
 
             <th>
                 <div class="label">
                     <label for="convertirde">Convertir a:</label>
                 </div>
-            <select name="convertira" id="convertira">
+            <select name="convertira" id="convertira" class="select-custom">
                 <option value="1">Fahrenheit</option>
                 <option value="2">Celsius</option>
                 <option value="3">Kelvin</option>
             </select>
             </th>
         </table>
+        <div>
+            <label for="convertirde" class="label-input">Ingresa el dato que vas a convertir:</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" for="convertirde" id="inputconvertirde" class="form-control">
+        </div>
 
         <button id="btncal">
             <span></span>
