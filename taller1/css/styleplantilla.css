@@ -1,3 +1,12 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+  }
 /* Estilos para la barra de herramientas */
 .toolbar {
     background-color: #243b55;
@@ -38,13 +47,24 @@ img{
     width: 200px;
 }
 .nombre{
-
+    margin-top: 50px;
+    font-family: 'Braah One', sans-serif;
     font-size: 100px;
     padding-left: 200px;
 }
 .herramientas{
 text-align: center;
 
+}
+.piePagina{
+    text-align: center;
+    background-color: #243b55;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#fecha{
+    color: white;
 }
 
 
