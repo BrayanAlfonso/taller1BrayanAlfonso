@@ -1,15 +1,11 @@
 .login-box {
-    position: absolute;
+
     top: 60%;
-    left: 50%;
+
     width: 600px;
     height: 425px;
-    padding: 40px;
-    transform: translate(-50%, -50%);
-    background: #243b55;
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px #243b55;
-    border-radius: 10px;
+    padding: 20px;
+
   }
 .table{
     width: 100%;
