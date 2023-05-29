@@ -8,7 +8,7 @@ onclik.addEventListener("click", function(){
 let mouseover=document.getElementById("mouseover");
 mouseover.addEventListener("mouseover",function(){
     mouseover.style.backgroundColor="#03e9f4";
-    mouseover.style.transform="scale(1.1)";
+    mouseover.style.transform="scale(1.2)";
 })
 mouseover.addEventListener("mouseout",function(){
     mouseover.style.backgroundColor="#ffff";
@@ -23,11 +23,13 @@ document.addEventListener("keydown",function(event){
 
 let input=document.getElementById("input");
 input.addEventListener("focus",function(){
-    alert("Has enfocado el input, ahora puedes digitar algo!")
+    input.style.backgroundColor="#03e9f4";
+    console.log("Has enfocado el input, ahora puedes digitar algo!")
 })
 
 input.addEventListener("blur",function(){
     alert("El input ha sido desenfocado, seleccionalo para escribir algo")
+    input.style.backgroundColor="#ffff";
 })
 
 let dbclick=document.getElementById("dbclick");
@@ -37,7 +39,7 @@ dbclick.addEventListener("dblclick", function(){
 
 
 window.addEventListener('scroll', function(){
-    alert("Has desplazado la pagina con el scroll del mouse")
+    console.log("Has desplazado la pagina con el scroll del mouse")
 })
 
 let drag=document.getElementById("drag");
