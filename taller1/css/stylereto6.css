@@ -43,11 +43,7 @@ img{
  width: 150px; ;
 }
 
- button:hover{
-    background-color: #03e9f4;
-    transition: 0.5s;
-    transform: scale(1.3,1.3);
-}
+
 
 
 
@@ -58,37 +54,35 @@ img{
     position: fixed;/*Deja el objeto fijo*/
     z-index: 1; /*Trae toda la capa al frente*/
     top: 0;
-    padding-top: 100px;
+    padding-top: 250px;
     display: none;
 
 }
 
 
-#contenidoModal, #contenidoModalCP{
+.contenidoModales{
+    padding-top:50px ;
     background-color: #264CBF;
     width: 500px;
     margin: auto;
-    padding: 1rem;
+
 
  
 }
 
 
 
-.cerrarModal, .cerrarModalCP{
+.cerrarModal, .cerrarModalCP, .cerrarModalTA,.cerrarModalTP, .cerrarModalRA, .cerrarModalRP, .cerrarModalCuA, .cerrarModalCuP{
     float: right;
     font-size: 18;
     padding: 5px;
 }
-.cerrarModal:hover, .cerrarModalCP:hover{
+.cerrarModal:hover, .cerrarModalCP:hover, .cerrarModalTA:hover,.cerrarModalTP:hover, .cerrarModalRA:hover, .cerrarModalRP:hover, .cerrarModalCuA:hover, .cerrarModalCuP:hover{
     cursor: pointer;
     background-color: rgb(231, 9, 9);
 }
 
-.ACirculo{
-    width: 100%;
-    display: flex;
-}
+
 
 .formulario{
     background-color: sandybrown;
@@ -102,8 +96,58 @@ img{
     background-color: aliceblue;
     padding: 1rem;
     border: solid #03e9f4 2px;
-
-}
-#resultACirculo{
     display: none;
+}
+h2{
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  
+label{
+    color: #03e9f4;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #243b55;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .button:hover {
+    background-color: #03e9f4;
+    color: #243b55;
+  }
+  
+
+  button:hover{
+    background-color: #03e9f4;
+    transition: 0.5s;
+    transform: scale(1.2,1.2);
 }
