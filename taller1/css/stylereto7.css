@@ -1,11 +1,11 @@
 
 html {
-    height: 150%;
+    height: 170%;
     
   }
 .login-box {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     width: 400px;
     padding: 40px;
@@ -71,4 +71,29 @@ html {
 }
 p{
   color: #FFFFFF;
+}
+
+.feedback{
+  max-width: 100%;
+  width: 100%;
+  background-color: #243b55;
+  font-size: 15px;
+  color: #FFFFFF;
+  visibility: hidden;
+  opacity: 0;
+  border:solid 1px #03e9f4 ;
+  padding: 6px;
+}
+.feedback:hover{
+  background-color: #03e9f4;
+  color: #243b55;
+  transition: 0.5s;
+  transform: scale(1.2,1.2);
+}
+.succes{
+  border: 2px solid greenyellow;
+}
+
+.error{
+  border: 2px solid red;
 }

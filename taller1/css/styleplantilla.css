@@ -310,9 +310,15 @@ label{
   background-color: #264CBF;
   width: 500px;
   margin: auto;
-
+  animation-name: animarModal;
+  animation-duration: 1s;
   
 
+}
+
+@keyframes animarModal{
+  from{top:-300px; opacity: 0;}
+  to{top:0px; opacity: 1;}
 }
 
   
