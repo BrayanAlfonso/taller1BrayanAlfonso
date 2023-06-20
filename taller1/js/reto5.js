@@ -7,8 +7,8 @@ btncal.addEventListener("click", function(e){
 
     const mensaje=document.getElementById("mensaje")
     mensaje.style.color="white"
-    const mensajeError=document.getElementById("mensajeError")
-    mensajeError.style.color="white"
+
+
     let traerNombre=parseInt(document.getElementById("nombres").value);
     let traerApellido=parseInt(document.getElementById("apellidos").value);
     let traerMateria=parseInt(document.getElementById("materia").value);
